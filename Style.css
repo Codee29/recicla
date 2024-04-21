@@ -1,0 +1,111 @@
+body{
+text-align: center;
+background-color   : rgb(255, 255, 255);
+font-family: Arial;
+font-size: 18px;
+}
+
+header{
+text-align: center;
+font-family: Arial;
+font-size: 20px; 
+
+
+}
+main{ font-size: 20px;
+  text-align: center;
+  font-family: Arial;
+}
+
+img{ 
+width: 1500px
+    
+ }
+nav{ 
+  width: 600px;
+  height: 300px;
+}
+ ul{
+color: rgb(255, 255, 255);
+
+  } 
+
+nav{ 
+  display: inline;
+}
+
+
+h3{
+  text-decoration: underline overline greenyellow ;
+  padding: 30px;
+  margin: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #029e17;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+#world  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+#mapa {
+width: 100%;
+margin: 120px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#botonarriba{
+  display: none; 
+  position: fixed; 
+  bottom: 10px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: rgb(6, 192, 0); 
+  color: rgb(21, 255, 0); 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 1px; 
+}
+
+#myBtn:hover {
+  background-color: #1b8600; 
+}
+
+#quien { background-color: #029e17;
+
+}
+
+#yo { border-style: dotted; border-color: #111; width: 320px;
+height: 400px;
+margin: 100px;}
+
+footer {text-align: center;}
